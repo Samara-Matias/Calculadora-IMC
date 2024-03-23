@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <img src="./IMG/undraw_fitness_tracker_3033.svg" alt="Imagem de Fitness Tracker">
+    </div>
+    <div class="container">
+        <div class="container-box">
+            <div id="titulo">
+                <h1>Calcule o seu IMC:</h1>
+            </div>
+            <form>
+                <div class="form-input form-component">
+                    <label for="peso">Peso(Kg):</label>
+                    <input id="peso" type="text" placeholder="Ex: 63.2">
+                </div>
+    
+                <div class="form-input form-component">
+                    <label for="altura">Altura(M):</label>
+                    <input id="altura" type="text" placeholder="Ex: 1.70">
+                </div>
+    
+                <div class="form-button form-component">
+                    <button id="calcular">Calcular</button>
+                </div>
+            </form>
+        </div>
+        <div class="resultado">
+            <div id="divRes">
+                <h3>Resultado:</h3>
+                <ul id="ulRes">
+                    <!-- <li>Seu IMC é de: </li>
+                    
+                    <li>Você está: --</li> -->
+                </ul>
+            </div>
+        </div>  
+    </div>
+
+    
+</body>
+</html>
